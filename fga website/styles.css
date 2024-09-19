@@ -1,0 +1,80 @@
+body {
+  font-family: Papyrus, sans-serif;
+  color: whitesmoke;
+  background-image: url(images/kingfisher.png);
+  background-size: cover;
+}
+.nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid orange;
+  border-style: ridge;
+}
+
+a {
+  color: whitesmoke;
+}
+.brand-name {
+  text-align: center;
+}
+
+.intro {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20%;
+}
+
+.intro-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border: 1px solid orange;
+  border-bottom: 5px solid orange;
+}
+
+.workshops {
+  border: 1px solid orange;
+  border-bottom: 5px solid orange;
+  text-align: center;
+  list-style: inside;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.instagram {
+  text-align: center;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+}
+
+.email {
+  font-family: Papyrus, Arial, Helvetica, sans-serif;
+  border: 1px solid turquoise;
+  margin-right: 10px;
+}
+
+.newsletter-button {
+  font-family: Papyrus, Arial, Helvetica, sans-serif;
+  border: 1px solid turquoise;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  background: turquoise;
+  margin: 50px auto;
+}
